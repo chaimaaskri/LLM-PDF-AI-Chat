@@ -1,7 +1,7 @@
 # LLM-PDF-AI-Chat
 
 Welcome to **LLM-PDF-AI-Chat**! 🚀 This application allows users to interact with the content of PDF files conversationally using cutting-edge language models and vector search.  
-![App Preview](https://github.com/user-attachments/assets/example-image.png) <!-- Replace with your actual image link -->
+
 
 ## Overview
 
@@ -30,33 +30,35 @@ Follow these instructions to set up and run the project locally.
    ```bash
    git clone https://github.com/your-username/LLM-PDF-AI-Chat.git
    cd LLM-PDF-AI-Chat
- ``
+ ```
 Set Up a Virtual Environment:
- ``
+ ```
 bash
 Copier le code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies:
- ``
- ``bash
+ ```
+ ```Install Dependencies:
+
+bash
 Copier le code
 pip install -r requirements.txt
+ ```
 Add Your API Key:
- ``
+ ```
 Create a .env file in the project directory and add your Google API key:
- ``
-env
+ ```
+ ```env
 Copier le code
 GOOGLE_API_KEY=your_google_api_key
 Run the App:
- ``
- ``bash
+ ```
+ ```bash
 Copier le code
 streamlit run app.py
- ``
+ ```
 Usage
- ``
+ ```
 Upload your PDF files in the sidebar.
 Click on Submit & Process to extract and index the content.
 Ask questions in the input box, and the AI will respond with context-based answers.
@@ -64,9 +66,9 @@ Example Queries
 "Summarize the key findings of the report."
 "What are the challenges mentioned in the document?"
 "Is there any mention of climate policies in the text?"
- ``
+ ```
 File Structure
- ``
+ ```
 plaintext
 Copier le code
 .
@@ -74,13 +76,13 @@ Copier le code
 ├── requirements.txt      # List of dependencies
 ├── .env                  # API keys and environment variables
 └── README.md             # Documentation
- ``
+ ```
  
-References
+## References
 LangChain
 Google Generative AI
 Streamlit
-Author
+## Author
 👩‍💻 Chaima Askri
 📅 Version 1.0
 
