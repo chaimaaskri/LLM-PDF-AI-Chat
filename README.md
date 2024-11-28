@@ -30,21 +30,21 @@ Follow these instructions to set up and run the project locally.
    ```bash
    git clone https://github.com/your-username/LLM-PDF-AI-Chat.git
    cd LLM-PDF-AI-Chat
- ```
-Set Up a Virtual Environment:
+ 
+ 2. **Set Up a Virtual Environment** :
  ```
 bash
 Copier le code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
  ```
- ```Install Dependencies:
+ 3. **Install Dependencies**:
 
-bash
+ ```bash
 Copier le code
 pip install -r requirements.txt
  ```
-Add Your API Key:
+4.  **Add Your API Key**:
  ```
 Create a .env file in the project directory and add your Google API key:
  ```
@@ -57,7 +57,7 @@ Run the App:
 Copier le code
 streamlit run app.py
  ```
-Usage
+## Usage
  ```
 Upload your PDF files in the sidebar.
 Click on Submit & Process to extract and index the content.
@@ -67,7 +67,7 @@ Example Queries
 "What are the challenges mentioned in the document?"
 "Is there any mention of climate policies in the text?"
  ```
-File Structure
+## File Structure
  ```
 plaintext
 Copier le code
@@ -77,12 +77,10 @@ Copier le code
 ├── .env                  # API keys and environment variables
 └── README.md             # Documentation
  ```
- 
-## References
-LangChain
-Google Generative AI
-Streamlit
+
+
 ## Author
+
 👩‍💻 Chaima Askri
 📅 Version 1.0
 
